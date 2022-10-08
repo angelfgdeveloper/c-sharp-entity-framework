@@ -11,5 +11,6 @@ public class Categoria
     //[MaxLength(150)] // Etiqueta estricta para poner el largo del string
     public string Nombre { get; set; }
     public string Descripcion { get; set; }
+    public int Peso { get; set; }
     public virtual ICollection<Tarea> Tareas { get; set; }
 }
